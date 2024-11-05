@@ -5,6 +5,5 @@ pandas
 opencv-python
 pyttsx3
 tensorflow
-pytorch
 google.generativeai
 SpeechRecognition
