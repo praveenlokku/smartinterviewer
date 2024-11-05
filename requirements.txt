@@ -6,3 +6,4 @@ pandas
 opencv
 pyttsx3
 google.generativeai
+speech_recognotion
