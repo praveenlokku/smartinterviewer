@@ -1,6 +1,6 @@
 
 flask
-mumpy
+numpy
 keras
 pandas
 pyttsx3
