@@ -1,0 +1,7 @@
+time
+flask
+mumpy
+keras
+pandas
+pyttsx3
+google.generativeai
