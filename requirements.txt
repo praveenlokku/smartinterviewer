@@ -1,4 +1,5 @@
 pip install --upgrade pip
+python-3.9
 flask
 numpy
 keras
