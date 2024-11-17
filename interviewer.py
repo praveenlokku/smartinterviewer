@@ -92,6 +92,18 @@ def ask_question():
 @app.route('/')
 def index():
     return render_template('interviewer.html')
+@app.route('/answergiven')
+def answer():
+    return jsonify({"Answer Given": answer_given })
+
+@app.route('/get_question')
+def get_question():
+    global question
+    if question:  
+        return jsonify({"question": question})
+    else:
+        return jsonify({"question": "No question available yet."})
+
 
 @app.route('/video_feed')
 def video_feed():
